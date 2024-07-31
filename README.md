@@ -93,7 +93,7 @@ flask run
 #### Obtener favoritos de un usuario:
 - GET /user/favorites
 - Query Params:
--- user_id (requerido): ID del usuario
+- user_id (requerido): ID del usuario
 
 #### Añadir un favorito (persona o planeta):
 - POST /favorite/people/<int:people_id>
